@@ -3,6 +3,15 @@ All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 ----
 
+## [v1.1.2] - 2020-02-17
+
+### Changed
+- Forked package to [squatto/grafite-crypto](https://github.com/squatto/grafite-crypto)
+  because [GrafiteInc/Crypto](https://github.com/GrafiteInc/Crypto) is abandoned
+- Changed composer package name to `squatto/grafite-crypto`
+- Moved `Blade::directive()` calls in `CryptoProvider.php` from `register()` to `boot()` to fix
+  a compatibility bug with Laravel 5.8
+
 ## [v1.1.1] - 2018-10-20
 
 ### Changed

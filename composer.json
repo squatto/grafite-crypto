@@ -1,8 +1,12 @@
 {
-    "name": "grafite/crypto",
+    "name": "squatto/grafite-crypto",
     "description": "Cryptography tools for Laravel and Lumen",
     "license": "MIT",
     "authors": [
+        {
+            "name": "Scott Carpenter",
+            "email": "scott@payforstay.com"
+        },
         {
             "name": "Matt Lantz",
             "email": "mattlantz@gmail.com"

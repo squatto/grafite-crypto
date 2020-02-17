@@ -2,15 +2,13 @@
 
 **Crypto** - Powerful and elegant cryptography tools for Laravel and Lumen
 
-[![Build Status](https://travis-ci.org/GrafiteInc/Crypto.svg?branch=master)](https://travis-ci.org/GrafiteInc/Crypto)
-[![Maintainability](https://api.codeclimate.com/v1/badges/7577ab93d33bf9b69605/maintainability)](https://codeclimate.com/github/GrafiteInc/Crypto/maintainability)
-[![Packagist](https://img.shields.io/packagist/dt/grafite/crypto.svg?maxAge=2592000)](https://packagist.org/packages/grafite/crypto)
-[![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://packagist.org/packages/grafite/crypto)
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://packagist.org/packages/squatto/grafite-crypto)
 
 The Cryptograpy toolset Crypto provides a collection of methods for handy, encryption, decryption, uuid generating, app key generating and more.
 
 ##### Author(s):
-* [Matt Lantz](https://github.com/mlantz) ([@mattylantz](http://twitter.com/mattylantz), mattlantz at gmail dot com)
+* [Matt Lantz](https://github.com/mlantz) ([@mattylantz](http://twitter.com/mattylantz), mattlantz at gmail dot com) - original package author
+* [Scott Carpenter](https://github.com/squatto) - current package author
 
 ## Requirements
 
@@ -31,7 +29,7 @@ composer create-project laravel/laravel your-project-name
 
 Then run the following to add Crypto
 ```php
-composer require "grafite/crypto"
+composer require squatto/grafite-crypto
 ```
 
 ## Documentation

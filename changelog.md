@@ -3,6 +3,12 @@ All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 ----
 
+## [v1.1.3] - 2020-02-18
+
+### Changed
+- Require PHP 7.2+, Laravel 6.0+
+- Updated dev dependencies
+
 ## [v1.1.2] - 2020-02-17
 
 ### Changed

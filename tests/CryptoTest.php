@@ -2,11 +2,11 @@
 
 use Grafite\Crypto\Encryption\CryptoEncrypter;
 
-class CryptoTest extends PHPUnit_Framework_TestCase
+class CryptoTest extends PHPUnit\Framework\TestCase
 {
     protected $encrypter;
 
-    public function setUp()
+    public function setUp(): void
     {
         $this->encrypter = new CryptoEncrypter('myapikey', 'mysessionkey');
     }
@@ -31,7 +31,7 @@ class CryptoTest extends PHPUnit_Framework_TestCase
         $test = $this->encrypter->uuid();
         $this->assertTrue(is_string($test));
         $this->assertEquals(strlen($test), 36);
-        $this->assertContains('-', $test);
+        $this->assertStringContainsString('-', $test);
     }
 }
 

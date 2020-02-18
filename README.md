@@ -7,14 +7,14 @@
 The Cryptograpy toolset Crypto provides a collection of methods for handy, encryption, decryption, uuid generating, app key generating and more.
 
 ##### Author(s):
-* [Matt Lantz](https://github.com/mlantz) ([@mattylantz](http://twitter.com/mattylantz), mattlantz at gmail dot com) - original package author
+* [Matt Lantz](https://github.com/mlantz) ([@mattylantz](http://twitter.com/mattylantz), mattlantz at gmail dot com) - original [grafite/crypto package](https://packagist.org/packages/grafite/crypto) author
 * [Scott Carpenter](https://github.com/squatto) - current package author
 
 ## Requirements
 
-1. PHP 5.6+
+1. PHP 7.2+
 2. OpenSSL
-3. Laravel 5.3+ or Lumen
+3. Laravel 6.0+ or Lumen
 
 * For Lumen you must enable Facades: `$app->withFacades()`
 
@@ -27,7 +27,7 @@ Start a new Laravel project:
 composer create-project laravel/laravel your-project-name
 ```
 
-Then run the following to add Crypto
+Then run the following to add Crypto:
 ```php
 composer require squatto/grafite-crypto
 ```

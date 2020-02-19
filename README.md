@@ -1,8 +1,11 @@
 # Crypto
 
+> IMPORTANT: this fork's entire purpose is to enable compatibility with Laravel 6.x and beyond.  
+> **OUTSIDE OF ENSURING COMPATIBILITY, NO FEATURE ADDITIONS/CHANGES OR BUG FIXES WILL BE MADE!**
+
 **Crypto** - Powerful and elegant cryptography tools for Laravel and Lumen
 
-[![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://packagist.org/packages/squatto/grafite-crypto)
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://packagist.org/packages/squatto/grafite-crypto)
 
 The Cryptograpy toolset Crypto provides a collection of methods for handy, encryption, decryption, uuid generating, app key generating and more.
 
@@ -23,12 +26,12 @@ The Cryptograpy toolset Crypto provides a collection of methods for handy, encry
 ### Installation
 
 Start a new Laravel project:
-```php
+```shell script
 composer create-project laravel/laravel your-project-name
 ```
 
 Then run the following to add Crypto:
-```php
+```shell script
 composer require squatto/grafite-crypto
 ```
 

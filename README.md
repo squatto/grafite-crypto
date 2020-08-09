@@ -15,9 +15,9 @@ The Cryptograpy toolset Crypto provides a collection of methods for handy, encry
 
 ## Requirements
 
-1. PHP 7.2+
+1. PHP 7.3+
 2. OpenSSL
-3. Laravel 6.0+ or Lumen
+3. Laravel 7.0+ or Lumen
 
 * For Lumen you must enable Facades: `$app->withFacades()`
 

@@ -3,6 +3,12 @@ All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 ----
 
+## [v1.2.1] - 2020-05-25
+
+### Changed
+- Upgrade `ramsey/uuid` from v3 to v4
+- Updated dependencies
+
 ## [v1.2.0] - 2020-08-08
 
 ### Changed

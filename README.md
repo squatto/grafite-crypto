@@ -1,6 +1,6 @@
 # Crypto
 
-> IMPORTANT: this fork's entire purpose is to enable compatibility with Laravel 6.x and beyond.  
+> IMPORTANT: this fork's entire purpose is to enable compatibility with Laravel 8.x and beyond.  
 > **OUTSIDE OF ENSURING COMPATIBILITY, NO FEATURE ADDITIONS/CHANGES OR BUG FIXES WILL BE MADE!**
 
 **Crypto** - Powerful and elegant cryptography tools for Laravel and Lumen
@@ -17,9 +17,16 @@ The Cryptograpy toolset Crypto provides a collection of methods for handy, encry
 
 1. PHP 7.3+
 2. OpenSSL
-3. Laravel 7.0+ or Lumen
+3. Laravel 8.0+ or Lumen
 
 * For Lumen you must enable Facades: `$app->withFacades()`
+
+## Compatibility and Support
+
+| Laravel Version | Package Tag | Supported |
+|-----------------|-------------|-----------|
+| 8.x | 1.3.x | no |
+| 7.x | 1.2.x | no |
 
 ----
 
